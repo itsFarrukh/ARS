@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IRS</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Categories</string>
+    <string name="textViewTxt">Type of accident</string>
+    <string name="editTextTxt">Enter the type of accident..</string>
+    <string name="descriptionTv">Description about accident</string>
+    <string name="descriptionEt">Write a small description about the accident.</string>
+    <string name="reportBtn">Report</string>
+    <string name="title_activity_splash_screen">splash_screen</string>
+    <string name="nameTv">Enter your name</string>
+    <string name="numberTv">Enter your number</string>
+    <string name="accidentTypeTv">Type of accident</string>
+    <string name="accidentDesc">Desription of accident</string>
+    <string name="nextBtn">next page button</string>
+    <string name="logo">Form page logo</string>
+    <string name="cameraActivityTv">Take two snaps shot</string>
+
+    <color name="appThemeColor">#ee3124</color>
+    <color name="whiteColor">#FFFFFF</color>
+    <color name="backgroundColor">#F5F5F5</color>
+    <color name="greyColor">#DCDAD9</color>
+
+    <string name="cameraActivityTerms">Terms and Conditions</string>
+    <string name="title_activity_snaps">snaps_activity</string>
+    <string name="title_activity_form">FormActivity</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_new_map">NewMapActivity</string>
+    <string name="snap1">Snapshot 1</string>
+    <string name="snap2">Snapshot 2</string>
+    <string name="Agreement">Accept Terms and Conditions</string>
+    <string name="reportBtnText">Report</string>
+    <string name="nicEt">Contact No</string>
+    <string name="nameEt">Name</string>
+    <string name="submitBtn">Submit</string>
+    <string name="cancelBtn">Cancel</string>
+    <string name="title_activity_basic_information">BasicInformationActivity</string>
+    <string name="title_activity_tab_view">TabViewActivity</string>
+    <string name="title_activity_accident">AccidentActivity</string>
+    <string name="incidentTypes">Categories Of Incident</string>
+    <string name="title_activity_heat_mapping">HeatMappingActivity</string>
+    <string name="title_activity_rss">RSSActivity</string>
+
+</resources>

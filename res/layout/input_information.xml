@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteColor"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/appThemeColor" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:contentDescription="header content"
+            android:src="@drawable/logo_ars" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/textboxArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/appThemeColor"
+        android:orientation="vertical" >
+
+        <com.axon.ars.MyEditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview"
+            android:drawableStart="@drawable/ic_action_add_person"
+            android:hint="Name" />
+
+        <Spinner
+            android:id="@+id/accidentTypeList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/textview" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/imageContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/appThemeColor" >
+
+        <TextView
+            android:id="@+id/imageContainerHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Capture Image Here"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+</LinearLayout>
